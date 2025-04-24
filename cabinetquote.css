@@ -1,0 +1,249 @@
+/*the default color for the links in the navbar at the top of the page*/
+a {
+	text-decoration: none;
+	color: white;
+}
+
+/*the "Back" button on the bottom left of the screen when you view a project*/
+.back {
+	color: green;
+}
+
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/*just the "Free quotes. No hassles" heading*/
+.center {
+	text-align: center;
+	color: green;
+}
+
+/*the form on the register page*/
+.content {
+	width: 90%;
+	margin: auto;
+}
+
+/*header on the project details page*/
+.deets_header,.quotes-footer{
+	grid-column: 1/ -1;
+}
+
+#grey {
+	color: #A9A9A9;
+}
+
+#grey a {
+	color: black;
+}
+
+/*the text that starts with "Need new cabinets" close to the top of the page*/
+h2 {
+	color: #A9A9A9;
+	text-align: center;
+}
+
+/*the top and bottom columns of the projects grid (these span the whole grid width)*/
+.header,
+.pagination_links {
+	grid-column: 1/ -1;
+}
+
+/*the little project images that show up in the project boxes*/
+img {
+	border-radius:5px;
+	height: 200px;
+	width:100%;
+	align-self: center;
+	object-fit: cover;
+}
+
+/*the CabinetQuote text at the top left of the page*/
+#logo {
+	width: 350px;
+	text-align: center;
+	color: #A9A9A9;
+	border-radius: 5px;
+}
+
+/*the link color for the logo text*/
+#logo a {
+	color: #A9A9A9;
+	text-decoration: none;
+}
+
+/*the div that contains a message typed by the homeowner*/
+.message {
+	padding: 10px;
+	width: 90%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	border-radius: 5px;
+	margin: 10px;
+	color: green;
+}
+
+/*the green navbar at the top of the page*/
+#menu {
+	width: 100%;
+	float: right;
+	text-align: right;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+}
+
+/*the hover state for the link in the navbar at the top of the page*/
+#menu a:hover {
+	color: black;
+}
+
+/*the navbar links*/
+#menu li {
+	display: inline;
+	padding: 10px;
+}
+
+/*all the text at the top, starting with "Free quotes. No hassles"*/
+.page_intro {
+	padding-top: 60px;
+	width: 90%;
+	margin: auto;
+}
+
+/*the "Learn more" link inside the intro text*/
+.page_intro a {
+	color: green;
+}
+
+/*the hover state for the "Learn more" link*/
+.page_intro a:hover {
+	color: black;
+}
+
+/*just the "Free quotes. No hassles" heading*/
+.page_intro h1 {
+	color: green;
+	text-align: center;
+}
+
+/*just the color for the page numbers at the bottom of the homepage*/
+.pagination_links {
+	width: 100%;
+}
+
+.pagination_links a {
+	color: black;
+}
+
+/*the content on the project details page*/
+.project_details{
+	width:90%;
+	display:grid;
+	/*grid-template-columns: repeat(2, 1fr);*/
+	margin:auto;
+	align-content:flex-start;
+	justify-content: center;
+
+}
+
+/*the grid on the homepage where projects appear*/
+.project_results {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	gap: 1rem;
+	width: 90%;
+	margin: auto;
+}
+
+/*the "Projects" heading at the top left corner of the homepage*/
+.project_results h1 {
+	width: 100%;
+}
+
+/*add documentation for this*/
+.quote_box {
+	width: 40%;
+	padding: 10px;
+	border-width: 2px;
+	border-style: solid;
+	border-color: green;
+	border-radius: 5px;
+	margin: 10px;
+	color: #A9A9A9;
+}
+
+/*the boxes that appear on the homepage with the project photo, title, and details*/
+.results_box {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: green;
+	border-radius: 8px;
+	color: #A9A9A9;
+}
+
+/*the div that contains project details on the project details page*/
+.results_box_deets{
+	display:grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.results_box_deets>img{
+	align-self: start;
+}
+
+/*the list that contains project details inside the project box on the homepage*/
+.results_box ul {
+	flex: 1;
+}
+
+/*the div that contains the three dropdowns and search button above projects on the homepage*/
+#searchbox {
+	width: 100;
+	text-align: center;
+}
+
+/*the div that contains a message typed by the contractor*/
+.seller_message {
+	padding: 10px;
+	width: 90%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #A9A9A9;
+	border-radius: 5px;
+	margin: 10px;
+	color: #A9A9A9;
+}
+
+.textarea {
+	width: 100%;
+	min-height: 100px;
+}
+
+/*add documentation for this*/
+.title {
+	color: green;
+}
+
+/*the default state for the buttons that say "view project" on the homepage*/
+.view_project {
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 10px;
+}
+
+/*the hover state for the buttons that say "view project" on the homepage*/
+.view_project:hover {
+	background-color: orange;
+}

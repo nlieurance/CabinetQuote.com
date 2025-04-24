@@ -1,0 +1,4 @@
+<?php
+$to = "nicholaslieurance@yahoo.com";
+$subject = "Subject";
+$message = "Hello";
