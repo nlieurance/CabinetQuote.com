@@ -5,9 +5,9 @@
 <?php
 session_start();
 ?>
-<div id="logo"><a href="index.php"><h1>CabinetQuote.com</h1></a></div>
+<!--div id="logo"><a href="index.php"><h1>CabinetQuote.com</h1></a></div-->
 
-<div id="menu">
+<div id="menu"><div id="logo"><a href="index.php"><h1>CabinetQuote.com</h1></a></div>
 	<ul>
 	<li><a href="about.php">About</a></li>
 	<?php if (!isset($_SESSION['id'])){
@@ -22,7 +22,7 @@ session_start();
 </div>
 
 <div class="page_intro">
-	<h1>Free Quotes. No Hassles.</h1>
-	<h2>Need new cabinets or countertops? Post a project and get free quotes. No one will contact you and we won't share your info. <a href="about.php">Learn more.</a></h2>
+	<h2>Free Quotes. No Hassles.</h2>
+	<h2 id="grey">Need new cabinets or countertops? Post a project and get free quotes. No one will contact you and we won't share your info. <a href="about.php">Learn more.</a></h2>
 
 </div>
