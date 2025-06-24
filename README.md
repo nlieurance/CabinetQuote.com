@@ -22,9 +22,9 @@ To show projects on the hompage, I built this file and included it in index.php.
 ### post.php
 A user needs to log in before posting or providing a quote for a project. This file checks to see if the user is already logged in. If not, it serves up the login page. The user might be logged in as a contractor. In that case, they go to a page that shows an error message saying they can't post projects.
 
-## To do
+## To do (June 2025)
 I'm dusting off this project after a long break. There are still some outstanding item to get done. For example:
 - Neither homeowners nor contractors have any kind of dashboard where they can view all their projects. I should make one.
-- Some of the CSS styling needs to be wrapped up.
+- The CSS needs work. When I had this live on the web, I used the Bootstrap framework. I've been tinkering with the CSS grid. But I may have to go back to Bootstrap.
 
 
