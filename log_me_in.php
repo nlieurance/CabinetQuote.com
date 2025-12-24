@@ -1,5 +1,5 @@
 <?php
-require('../connect_db.php');
+require_once __DIR__ . '/connect_db.php';
 
 //assign username and password to variables and clean them up...
 $user = mysqli_real_escape_string($dbc,trim($_POST['email']));
