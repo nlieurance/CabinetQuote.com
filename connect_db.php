@@ -1,6 +1,7 @@
 <?php
 $dbc = mysqli_connect(
   getenv('DB_HOST'),
+  getenv('DB_PORT'),
   getenv('DB_USER'),
   getenv('DB_PASS'),
   getenv('DB_NAME')
