@@ -277,7 +277,7 @@ img {
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
 	/*the grid on the homepage where projects appear*/
 
 	.project_results {
