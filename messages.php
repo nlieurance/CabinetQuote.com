@@ -1,6 +1,6 @@
 <?php
 include('header.php');
-require('../connect_db.php');
+require_once __DIR__ . '/connect_db.php';
 //provide access to session data...
 if (!isset($_SESSION)){
 	session_start();
