@@ -1,5 +1,4 @@
 <?php
-include('header.php');
 
 $project_id = $_GET['id'];
 
@@ -15,5 +14,6 @@ if ($_SESSION['role'] == 'buyer'){
 } else{
 	//echo '
 include('quote_form.php');
+	include('header.php');
 }
 
