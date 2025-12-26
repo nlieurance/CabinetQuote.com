@@ -1,14 +1,17 @@
 <?php
-include('header.php');
 require_once __DIR__ . '/connect_db.php';
-//provide access to session data...
-if (!isset($_SESSION)){
-	session_start();
+
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
 }
-//make sure the user is logged in or redirect to login page...
-if (!isset($_SESSION['id'])){
-	header('location:login.php');
+
+// make sure the user is logged in
+if (!isset($_SESSION['id'])) {
+    header('Location: login.php');
+    exit;
 }
+
+include('header.php');
 ?>
 
 <div class="project_results"><h1>Quote Details...</h1>
