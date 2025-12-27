@@ -98,25 +98,3 @@
                 });
             };
         }
-$(document).ready(function () {
-  console.log("DOM ready, initializing locationInfo");
-
-  var loc = new locationInfo();
-  loc.getCountries();
-
-  $(".countries").on("change", function () {
-    var countryId = $("option:selected", this).attr("countryid");
-    if (countryId) {
-      loc.getStates(countryId);
-    }
-  });
-
-  $(".states").on("change", function () {
-    var stateId = $("option:selected", this).attr("stateid");
-    if (stateId) {
-      loc.getCities(stateId);
-    }
-  });
-});
-
-        
