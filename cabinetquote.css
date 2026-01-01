@@ -184,7 +184,7 @@ img {
 /*the grid on the homepage where projects appear*/
 .project_results {
 	display: grid;
-	grid-template-columns: repeat(autofit, minmax(250px, 1fr);
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr);
 	justify-content: center;
 	gap: 1rem;
 	width: 80%;
