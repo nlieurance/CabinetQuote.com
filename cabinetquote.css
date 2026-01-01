@@ -218,6 +218,7 @@ img {
 	border-color: #b5b5b5;
 	border-radius: 8px;
 	color: #404040;
+	width:100%;
 }
 
 /*the div that contains project details on the project details page*/
